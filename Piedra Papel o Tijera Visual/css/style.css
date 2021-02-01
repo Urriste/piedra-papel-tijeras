@@ -16,10 +16,11 @@ body{
 }
 
 .title{
-    font-size: 45px;
+    width: 120px;
     margin: 10px 0 70px 0;
     color: #fa6b24;
     font-weight: 700;
+    text-align: center;
 }
 
 .parrafo{
@@ -36,19 +37,12 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid black;
     height: 25px;
+    border-radius: 5px;
 }
 
-.btn{
-    height: 25px;
-    background-color:rgb(255, 87, 127);
-    border: 1px solid black;
-    cursor: pointer;
-    width: 50px;
-    margin: 0 0 30px 0;
-    font-weight: 300;
-}
 
-.btn:hover,
+
+
 .btn-jugar:hover{
     background-color:rgb(255, 87, 127,0.7);
 }
@@ -62,20 +56,9 @@ body{
     margin: 0 0 30px 0;
     font-size: 18px;
     font-weight: 300;
+    border-radius: 5px;
 }
 
-.eleccion1,
-.eleccion2{
-    font-size: 20px;
-}
-
-.eleccion1{
-    margin: 25px 0 0 0;
-}
-
-.eleccion2{
-    margin: 10px 0 25px 0;
-}
 
 .resultado{
     text-align: center;
@@ -83,4 +66,29 @@ body{
     font-size: 30px;
     background-color:#ffc764;
     padding: 30px;
+    border-radius: 5px;
+}
+
+.social-media{
+	align-self: flex-end;
+	position: absolute;
+	bottom: 0;
+}
+
+.social-media a{
+	text-decoration: none;
+	color:black;
+	font-size: 25px;
+	margin: 10px 10px 0 0;
+
+}
+
+
+/* Estados */
+.active{
+    display: block;
+}
+
+.none{
+    display: none;
 }

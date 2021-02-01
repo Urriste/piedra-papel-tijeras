@@ -2,35 +2,40 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/Untitled.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Piedra Papel o Tijera</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     
 </head>
 <body>
     
-    <h1 class="title">Piedra,Papel o Tijeras</h1>
+    <img src="img/Untitled.png" alt="Logo" class="title">
 
 
     <div class="form-container">
         <p class="parrafo" id="parrafo">Jugador/a 1, escriba su nombre</p>
-        <input type="text" id="input1" class="input">
-        <button class="btn" id="btn1" type="submit">Enviar</button>
+        <input type="text" id="input1" class="input" required>
     </div>
     <br>
     <div class="form-container">
         <p class="parrafo">Jugador/a 2, escriba su nombre</p>
-        <input type="text" id="input2" class="input">
-        <button class="btn" id="btn2">Enviar</button>
+        <input type="text" id="input2" class="input" required>
     </div>
     <br><br>
     <button class="btn-jugar" id="btn-jugar">Jugar!</button> 
 
-    <p id="eleccion1" class="eleccion1"></p>
-    <p id="eleccion2" class="eleccion2"></p>
 
-    <p class="resultado" id="ganador"></p>
-   
+    <p class="resultado none" id="ganador"></p>
+    
+    
+
+    <div class="social-media">
+		<a target="_blank" href="https://github.com/Urriste" class="github fab fa-github-square"></a>
+		<a target="_blank" href="https://www.linkedin.com/in/urriste/" class="linkedin fab fa-linkedin"></a>
+    </div>
+    
     <script src="js/Piedra Papel O Tijera (atado con alambre).js"></script>
 
 </body>
